@@ -1,0 +1,159 @@
+/* General */
+body {
+  font-family:'Bell MT', 'Times New Roman', Times, serif;;
+  margin: 20px;
+  background: #f8f9fa;
+  transition: background 0.4s, color 0.4s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 0;
+  padding: 10px 20px;
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: #495057;
+}
+
+/* Table */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+table th {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+body.dark-mode table {
+  background: #1f1f1f;
+}
+
+body.dark-mode table th {
+  background-color: #222;
+}
+
+body.dark-mode table td {
+  border-color: #555;
+}
+
+/* Dashboard */
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: background 0.4s;
+  position: relative;
+}
+
+body.dark-mode .card {
+  background: #1e1e1e;
+}
+
+/* Card Header */
+.card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.centered-title {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.dropdown-container {
+  margin-left: 10px;
+}
+
+#valueTypeSelect {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#barChart, #pieChart {
+  width: 100%;
+  height: 400px;
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
